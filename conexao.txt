@@ -1,0 +1,4 @@
+"server=___;port=___;uid=___;pwd=___;database=___"
+"server=localhost;port=3306;uid=Ruan;pwd=1234;database=tarefas"
+
+dotnet ef dbcontext scaffold _string_ _provider_ -o _pasta_ -f --no-pluralize
